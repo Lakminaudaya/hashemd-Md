@@ -23,7 +23,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "✨",
+            react: "👸",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -85,19 +85,19 @@ Secktor.cmd({
                 let generatebutton = [{
                     buttonId: `${prefix}owner`,
                     buttonText: {
-                        displayText: 'Owner'
+                        displayText: '🍂👸හෂී_හ් 𝙾𝚆𝙽𝙴𝚁👸🍂'
                     },
                     type: 1
                 },{
                     buttonId: `${prefix}ping`,
                     buttonText: {
-                        displayText: 'SPEED'
+                        displayText: '🍂👸හෂී_හ් 𝚂𝙿𝙴𝙴𝙳👸🍂'
                     },
                     type: 1
                 }, {
                     buttonId: `${prefix}list`,
                     buttonText: {
-                        displayText: 'List Menu'
+                        displayText: '🍂👸හෂී_හ් 𝙻𝙸𝚂𝚃 𝙼𝙴𝙽𝚄👸🍂'
                     },
                     type: 1
                 }]
@@ -117,7 +117,7 @@ Secktor.cmd({
             pattern: "list",
             desc: "list menu",
             category: "general",
-            react: "✅"
+            react: "😮"
         },
         async(Void, citel) => {
             const { commands } = require('../lib');
@@ -151,7 +151,7 @@ Secktor.cmd({
         pattern: "owner",
         desc: "To check ping",
         category: "general",
-        react: "💜",
+        react: "😎",
         filename: __filename
     },
     async(Void, citel) => {
